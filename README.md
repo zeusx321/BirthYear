@@ -1,37 +1,42 @@
-🎉 Age to Birth Year Calculator
+# 🎉 Age to Birth Year Calculator
 
-A simple web project that calculates your Gregorian and Islamic (Hijri) birth year based on your age! 🎂✨
-You can also delete the results with a click. Built using HTML, CSS, and JavaScript. 💻
+A small, friendly web project that calculates your **Gregorian** and **Islamic (Hijri)** birth year from your age. Built with **HTML**, **CSS**, and **JavaScript** — with input validation and a delete/clear button. 💻✨
 
-Features 🚀
+---
 
-🧮 Enter your age to calculate:
+## 🚀 Features
 
-📅 Gregorian Birth Year
+- 🧮 Enter your age to calculate:
+  - 📅 **Gregorian Birth Year**
+  - 🕌 **Approximate Islamic (Hijri) Birth Year**
+- ⚠️ Input validation: alerts if the input is empty or not a number.
+- 🗑️ Clear button: clears the input and results.
+- 🎨 Clean responsive layout using **Flexbox**.
 
-🕌 Approximate Islamic (Hijri) Birth Year
+---
 
-⚠️ Input validation: Alerts if the input is empty or not a number.
+## 🖼️ Demo
 
-🗑️ Delete Button: Clears input and results.
+<img width="715" height="489" alt="image" src="https://github.com/user-attachments/assets/a9f81d55-25ca-4911-8115-86ebb14d9b6b" />
 
-🎨 Stylish design with Flexbox for a clean look.
+---
 
-Demo Screenshot 🖼️
+## 🧰 Technologies
 
-<img width="729" height="496" alt="image" src="https://github.com/user-attachments/assets/73f72a9c-bb40-4cf3-91d5-42112aa442da" />
+- **HTML** — page structure  
+- **CSS** — styling and layout  
+- **JavaScript** — calculation and interactivity
 
-Technologies Used 💻
+---
 
-HTML – Structure of the page
+## 🔢 Calculation details
 
-CSS – Styling & responsive design
+* **Gregorian Birth Year** = `Current Year - Age`
+* **Approximate Islamic (Hijri) Birth Year** = `Math.floor((GregorianBirthYear - 622) * 33 / 32) + 1`
 
-JavaScript – Calculation & interactivity
+> ⚠️ The Hijri result is an approximation because the Islamic (Hijri) calendar is lunar (shorter than Gregorian).
 
-Calculation Details 🔢
+---
 
-Gregorian Birth Year = Current Year - Age 🗓️
-
-Approximate Islamic (Hijri) Birth Year = (Gregorian Birth Year - 622) × 33 / 32 + 1 🕌
-(Hijri calculation is approximate because the Islamic calendar is lunar 🌙.)
+Want me to paste this directly into your repo (I can generate the exact `README.md` content you can copy) or also add a polished screenshot image tag with instructions on how to export one from your browser?
+```
