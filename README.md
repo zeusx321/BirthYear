@@ -37,6 +37,3 @@ A small, friendly web project that calculates your **Gregorian** and **Islamic (
 > ⚠️ The Hijri result is an approximation because the Islamic (Hijri) calendar is lunar (shorter than Gregorian).
 
 ---
-
-Want me to paste this directly into your repo (I can generate the exact `README.md` content you can copy) or also add a polished screenshot image tag with instructions on how to export one from your browser?
-```
